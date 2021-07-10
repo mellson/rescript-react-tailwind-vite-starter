@@ -1,42 +1,9 @@
-
-# Created by https://www.toptal.com/developers/gitignore/api/reasonml,vscode,ocaml
-# Edit at https://www.toptal.com/developers/gitignore?templates=reasonml,vscode,ocaml
-
-### OCaml ###
-*.annot
-*.cmo
-*.cma
-*.cmi
-*.a
-*.o
-*.cmx
-*.cmxs
-*.cmxa
-
-# ocamlbuild working directory
-_build/
-
-# ocamlbuild targets
-*.byte
-*.native
-
-# oasis generated files
-setup.data
-setup.log
-
-# Merlin configuring file for Vim and Emacs
+# ReScript
+lib
 .merlin
+.bsb.lock
 
-# Dune generated files
-*.install
-
-# Local OPAM switch
-_opam/
-
-### Reasonml ###
-/lib
-
-### vscode ###
+# vscode
 .vscode/*
 !.vscode/settings.json
 !.vscode/tasks.json
@@ -44,10 +11,8 @@ _opam/
 !.vscode/extensions.json
 *.code-workspace
 
-# End of https://www.toptal.com/developers/gitignore/api/reasonml,vscode,ocaml
-
-# ReScript #
-.bsb.lock
-
 # Vite
 dist
+
+# npm
+node_modules
