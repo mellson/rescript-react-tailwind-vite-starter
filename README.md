@@ -8,7 +8,7 @@ The project includes a .vscode folder with extension suggestions and setup for r
 
 1. Open the folder in vscode and install the suggested extension. Reload vscode.
 
-2. Open a `.res` file, for instance `App.res` and start the build which should be suggested by the popup in the bottom right corner.
+2. Open a `.res` file, for instance `App.res` and start the build which should be suggested by the popup in the bottom right corner. If there's no popup run `yarn start` and jump to #4.
 
 3. Start Vite by running `yarn dev` in the folder.
 
